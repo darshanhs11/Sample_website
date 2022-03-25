@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="test/css" href="style.css"/>
+    <title> Sample Website Created By </title>
+</head>
+
+<body>
+    <style>
+    
+    h1,h2{text-align: center;}
+    form{text-align: center; align-self: start;}
+    img{margin-left: 8cm;
+    margin-right: 8cm;}
+
+    footer {
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+            footer p {
+                font-family: calibri;
+            }
+
+                footer p:nth-child(1) {
+                    font-size: 30px;
+                    font-weight: bold;
+                    columns: #19191983;
+                    line-height: 10px;
+                }
+
+        .social-icons {
+            display: flex;
+        }
+
+            .social-icons a {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e3d2c68f;
+                margin: 20px 10px;
+                border-radius: 50%;
+            }
+
+            .social-icons i {
+                color: #000000a4;
+            }
+
+            .social-icons a:hover,
+            .social-b a:hover {
+                background-color: #000000ef;
+                box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+                transition: all ease 0.5s;
+            }
+
+                .social-icons a:hover i,
+                .social-b a:hover i {
+                    background-color: #ffffff;
+                    transition: all ease 0.5s;
+                }
+
+        .social-b {
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            position: fixed;
+        }
+
+            .social-b a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                padding: 0px;
+                margin: 0px;
+                line-height: 0px;
+                background-color: #FFFFFF;
+                border: 1px solid #cbcbcb;
+                box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+            }
+
+            .social-b i {
+                color: #2b2b2b;
+                font-size: 20px;
+            }
+
+        .copyright {
+            color: #565555;
+            font-size: 13px;
+            position: absolute;
+            left: 50%;
+            bottom: 10px;
+            transform: translateX(-50%);
+        }
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            .button:hover {
+                background-color: #555;
+            }
+    
+    </style>
+
+    <img src="back.PNG" width="60%" height="20%" alt="Image is Unavailable " title="My image"/>
+    <h1>Hello all </h1>
+    <h2>This is a simple website created by Darshan H S</h2>
+    
+
+
+
+    <form action="result.html">
+        <h2>Ente your details to create a account </h2>
+
+
+        First Name:<input placeholder="first name" pattern="[A-Za-z]+"/><br/>
+        Last Name:<input placeholder="last name" pattern="[A-Za-z]+"/><br/>
+        Email-id : <input type="email"/><br/>
+        Passwors : <input type="text" pattern="[a-zA-Z0-9@*&]{8}"/><br/>    
+
+        phone no : <input type="number"  pattern="[0-9]"/><br/>
+
+        Age:<input placeholder="age"/><br/>
+        Gender:<input type="radio" name="gender"/>Male
+               <input type="radio" name="gender"/>Female<br/>
+        
+        Department : 
+        <select name="department">
+            <option>Electronics and Communication Engineering</option>
+            <option>Computer science Engineering</option>
+            <option>Electrical and Electronics Engineering</option>
+            <option>Information science Engineering</option>
+         
+        </select><br/>
+        City : 
+        <select name="city">
+            <option>Mysuru</option>
+            <option>Bangaluru</option>
+            <option>Mandya</option>
+            <option>Chamarajanagara</option>
+            <option>Shivamogga</option>
+            <option>Mangaluru</option>
+            <option>Belagavi</option>
+            <option>Uttara kannada</option>
+         
+        </select><br/>
+
+        Favorite Color:<input type="color" /><br/>
+
+        Date : <input type="date"/><br/>
+
+        Upload your resume : <input type="file" /><br/>
+      
+    <input type="button" value="Click me"/>
+    <input type="submit" value="Submit form"/>
+    <input type="reset" value="Reset form"/><br/>
+
+    <br/>
+
+    <a href="http://google.com">click here</a>
+
+
+
+ 
+    </form>
+</body>
+<footer>
+
+    <p>Darshan H S</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/darshan__h__s/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/Darshan60367680"><i class="fab fa-twitter"></i></a>
+        <a href="https://m.facebook.com/100061487927588/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/mwlite/in/darshan-h-s-706b72200"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/darshanhs11"><i class="fab fa-github"></i></a>
+    </div>
+    <!--copyright-->
+    <p class="copyright">Copyright by Darshan H S</p>
+
+</footer>
+</html>
